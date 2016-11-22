@@ -26,6 +26,13 @@ figure {
   width: 20em;
 }
 
+.lg-backdrop {
+    background: rgba(255,255,255,1);
+}
+
+.lg-image {
+    box-shadow: 0 0 30px #333;
+}
 
 /********************
 MEDIA QUERIES
