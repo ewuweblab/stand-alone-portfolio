@@ -15,5 +15,6 @@ $('header img').attr('src', eval('img' + numRand) );
 
 // Activate Gallery
 $('figure').lightGallery({
-    selector: 'a'
+    selector: 'a', 
+    thumbnail: true
 });

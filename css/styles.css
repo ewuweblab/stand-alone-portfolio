@@ -9,30 +9,41 @@ header {
   justify-content: center;
 }
 
-
 /* Gallery Styling */
+/* Just for Class*/
+figure img {
+    width: 100px;
+}
+
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 figure {
-  background: #eee;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 1em;
-  width: 20em;
+    background: yellow;
+    padding: 20px;
+    width: 30%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+
 .lg-backdrop {
-    background: rgba(255,255,255,1);
+    background: magenta;
 }
 
 .lg-image {
     box-shadow: 0 0 30px #333;
 }
+
+/* Captions */
+.caption {
+    display: none;
+}
+
 
 /********************
 MEDIA QUERIES
@@ -45,6 +56,10 @@ MEDIA QUERIES
        background: red;
   }
   
+    figure {
+            width: 100%;
+    }
+    
 }
 
 /* Tablet:  768px = 160em */
@@ -54,6 +69,10 @@ MEDIA QUERIES
   body {
        background: green;
   }
+    
+    figure {
+            width: 50%;
+    }
 
 }
 
@@ -64,5 +83,12 @@ MEDIA QUERIES
   body {
        background: blue;
   }
-
+ 
+  /* Main Container */
+ main {
+    margin: 0 auto;
+    width: 95%;
+ }    
+    
+    
 }
