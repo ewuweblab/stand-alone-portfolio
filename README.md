@@ -1,2 +1,2 @@
 # stand-alone-portfolio
-Stand Alone Portfolio
+This is my personal portfolio site created for Web Design 2.
