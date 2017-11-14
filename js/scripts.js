@@ -6,9 +6,9 @@ var numRand = Math.floor( Math.random() * maxRand );
 //console.log(numRand);
 
 // Store images
-var img0 = '/img/fullsize/1.jpg';
-var img1 = '/img/fullsize/2.jpg';
-var img2 = '/img/fullsize/3.jpg';
+var img0 = 'http://placehold.it/800x400';
+var img1 = 'http://placehold.it/800x400';
+var img2 = 'http://placehold.it/800x400';
 
 // Show Images
 $('header img').attr('src', eval('img' + numRand) );
